@@ -13,11 +13,12 @@ def boom(ma, v):
         print('all decay')
     elif delta >=30 and delta <=50:
         print('90% died')
+        print(speed(ma))
     elif delta >= 30:
         print("bol'no")
     else:
         print("n143g0")
-        print(speed(ma))
+        
 
 def speed(ma, m=vo*ro):
         speed=((2*c*50*m)/m)**0.5
