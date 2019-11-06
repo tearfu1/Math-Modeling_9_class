@@ -3,6 +3,7 @@ import numpy as np
 
 
 def beams_moving (h=1, F=1, k=1):
+    '''Выводит ход луча'''
     plt.plot([0],[-2], marker="^",color="b")
     plt.plot([0],[2], marker="v", color="b")
     plt.plot([0,0],[-2,2], color="b")
